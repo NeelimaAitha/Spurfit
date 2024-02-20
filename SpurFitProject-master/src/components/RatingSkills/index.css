@@ -1,0 +1,132 @@
+.rating-skills-container {
+  background-color: #edf9fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  border-radius: 30px;
+  padding: 50px;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .rating-skills-container {
+    margin: 20px;
+    padding: 20px;
+    height: 100%;
+  }
+}
+
+.rating-skills-white-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 200px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .rating-skills-white-card {
+    display: none;
+  }
+}
+
+.anonymonos-timeline {
+  display: flex;
+}
+
+.rating-skills-timeline-containers {
+  padding: 30px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.rating-skills-timeline-container-last {
+  padding: 30px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.rating-skills-timeline-items {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  position: relative;
+}
+
+.rating-time-line-dot {
+  position: absolute;
+  top: 63px;
+  z-index: 10;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.rating-skills-timeline-items p {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.rating-skills-title {
+  font-size: 45px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .rating-skills-title {
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+.you-box {
+  top: -20px;
+  left: -70%;
+  background-color: #661ff2;
+}
+
+.you-dot {
+  background-color: #661ff2;
+}
+
+.anonymous2 {
+  top: -20px;
+  background-color: #fc9c20d8;
+}
+
+.two-dot {
+  background-color: #fc9c20d8;
+}
+
+.anonymous-bottom {
+  top: 60px;
+}
+
+.anonymous1 {
+  background-color: #46c7fa;
+}
+
+.one-dot {
+  background-color: #46c7fa;
+}
+
+.anonymous3 {
+  background-color: #3acf82;
+}
+
+.three-dot {
+  background-color: #3acf82;
+}
+
+.rating-skills-timeline-containers::after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(224, 220, 220);
+}

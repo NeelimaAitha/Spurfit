@@ -1,0 +1,139 @@
+.self-improvement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .self-improvement-container {
+    margin: 0px;
+    padding: 20px;
+  }
+}
+
+.self-improvement-header {
+  align-self: flex-start;
+}
+
+.self-improvement-top-title {
+  font-size: 18px;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .self-improvement-top-title {
+    font-size: 14px;
+  }
+}
+
+.self-improvement-title {
+  font-size: 45px;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .self-improvement-title {
+    font-size: 30px;
+  }
+}
+
+.self-improvement-timeline {
+  width: 80%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .self-improvement-timeline {
+    width: 100%;
+  }
+}
+
+.timeline-container {
+  position: relative;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.time-line-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 42px;
+  background-color: #9182f7;
+}
+
+.timeline-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.timeline-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
+}
+
+.timeline-details {
+  position: relative;
+  left: 30px;
+}
+
+.timeline-container::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  top: 45px;
+  left: 26px;
+  height: 100%;
+  background-color: #9182f7;
+  z-index: -1;
+}
+
+.be-the-best-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .be-the-best-container {
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.be-the-best-container h3 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .be-the-best-container h3 {
+    font-size: 25px;
+  }
+}
+
+.be-the-best-container p {
+  width: 30%;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .be-the-best-container p {
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+  }
+}

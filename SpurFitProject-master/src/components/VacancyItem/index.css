@@ -1,0 +1,33 @@
+.vacancy-item {
+  background-color: #ffffe8;
+  border-radius: 15px;
+  padding: 30px;
+  width: 25%;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .vacancy-item {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.vacancy-details {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+.vacancy-details li {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}

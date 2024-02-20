@@ -1,0 +1,137 @@
+.nav-container {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0px 4px 16px 0px #efeded;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.website-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .website-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-items {
+    display: none;
+  }
+}
+
+.nav-list-item {
+  margin-right: 30px;
+}
+
+.download-app-btn {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .download-app-btn {
+    height: 25px;
+    font-size: 12px;
+    padding: 15px;
+    margin-right: 10px;
+  }
+}
+
+.download-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-icon {
+  display: none;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list-icon {
+    display: block;
+  }
+
+  .toggle-btn {
+    display: inline-block;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+  }
+}
+
+.mobile-nav-items-container {
+  padding-top: 13vh;
+  display: none;
+  background-color: #f0eeee;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-nav-items-container {
+    display: block;
+  }
+}
+
+.mobile-nav-list-item {
+  margin-bottom: 20px;
+}
+
+.mobile-nav-items {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.mobile-nav-item {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}

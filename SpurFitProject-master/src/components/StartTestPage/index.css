@@ -1,0 +1,68 @@
+.start-test-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.start-test-text1 {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.start-test-text2 {
+  font-size: 35px;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .start-test-text2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.start-test-text3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #605959;
+  max-width: 600px;
+  text-align: center;
+  line-height: 33px;
+  margin-bottom: 0px;
+}
+
+.with-love-text {
+  font-size: 18px;
+  color: #000000;
+}
+
+.with-love-sign {
+  font-family: "Caveat";
+  font-size: 24px;
+  color: #000000;
+}
+
+.start-test-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.test-duration {
+  font-size: 14px;
+  color: #605959;
+}
